@@ -15,9 +15,9 @@ build:
     noarch: python
 
 requirements:
-    build:
-        - setuptools >=0.8
+    host:
         - python
+        - setuptools >=0.8
         - numpy
         - scipy
         - utillib {{ OTHER_PACKAGES_REQUIRED_VERSION }}
