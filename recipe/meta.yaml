@@ -16,14 +16,14 @@ build:
 
 requirements:
     host:
-        - python
         - setuptools >=0.8
+        - python >=3.2
         - numpy
         - scipy
         - utillib {{ OTHER_PACKAGES_REQUIRED_VERSION }}
         - measurements {{ OTHER_PACKAGES_REQUIRED_VERSION }}
     run:
-        - python
+        - python >=3.2
         - numpy
         - scipy
         - utillib {{ OTHER_PACKAGES_REQUIRED_VERSION }}
